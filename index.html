@@ -34,14 +34,6 @@
   text-align: center;
         height: 550px;
       }
-  .menu {
-    height: 50px;
-    width: 100%;
-    text-align: center;
-    padding: 0px;
-    font-size: 20pt;
-    color: black;
-  }
   .description {
     font-size: 15pt;
     font-family: 'Times New Roman', Times, serif;
@@ -56,6 +48,23 @@
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
   }
+ .navbar ul{
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+	background-color: AADE91;
+	overflow: hidden;
+ }
+.navbar a{
+	color: white;
+	text-decoration: none;
+	padding: 15px;
+	display: block;
+	text-align: center;
+}
+.navbar a:hover{
+	background-color: #465C3C;
+}
     </style>
   </head>
   <body>
@@ -65,6 +74,12 @@
       <br>
       </span>
     </div> 
+	<nav class="navbar">
+		<ul>
+			<li><a href=""archive.html>Posts</a></li>
+			<li><a href="contact.html">Contact us</li>
+		</ul>
+	</nav>
 
 <div style="background-color: white; height:40px;">
 </div>
@@ -72,9 +87,6 @@
     <div class="image-container">
       <img src="Designer(1).png" alt="image" style="border: 5px solid black;">
     </div>
-  <div class="menu">
-       <button style="background-color:#E0A7A6; border:1px solid black; padding:5px;">
-<a href="archive.html">Archive</a></button>
   </div>
     <div class="description">
       <p>
@@ -89,7 +101,7 @@
 	Contact Nexos
       </p>
       <button style="background-color:#E0A7A6; border:1px solid black; padding:5px;">
-	<a href=mailto:oscarcoleman999@gmail.com>Nexos by Email</a>
+	<a style="color: white; text-decoration: none;" href=mailto:oscarcoleman999@gmail.com>Nexos by Email</a>
       </button>
     </div>
   </body>
