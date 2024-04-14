@@ -22,7 +22,7 @@
         flex-direction: column;
       }
       .text-center {
-  text-align: center;
+        text-align: center;
       }
       .image-container {
         width: 100%;
@@ -31,43 +31,48 @@
       }
       .image-container img {
         width: 65%;
-  text-align: center;
+        text-align: center;
         height: 550px;
       }
-  .description {
-    font-size: 17pt;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .contact {
-    background-color: #AADE91;
-    font-size: 15pt;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-  }
- .navbar ul{
-	list-style-type: none;
-	background-color: AADE91;
-	padding: 0px;
-	margin: 0px;
-	overflow: hidden;
- }
-.navbar a{
-	color: white;
-	text-decoration: none;
-	padding: 15px;
-	display: block;
-	text-align: center;
-}
-.navbar a:hover{
-	background-color: #465C3C;
-}
-.navbar li{
-	float: left;
-}
+      .description {
+        font-size: 17pt;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .contact {
+        background-color: #AADE91;
+        font-size: 15pt;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+      }
+      .navbar ul {
+        list-style-type: none;
+        background-color: AADE91;
+        padding: 0px;
+        margin: 0px;
+        overflow: hidden;
+        height: 0;
+        transition: height 0.3s ease;
+      }
+      .navbar:hover ul {
+        height: auto;
+      }
+      .navbar a {
+        color: white;
+        text-decoration: none;
+        padding: 15px;
+        display: block;
+        text-align: center;
+      }
+      .navbar a:hover {
+        background-color: #465c3c;
+      }
+      .navbar li {
+        float: left;
+      }
     </style>
   </head>
   <body>
@@ -77,34 +82,34 @@
       <br>
       </span>
     </div> 
-	<nav class="navbar">
-		<ul>
-			<li><a href=""archive.html>Posts</a></li>
-			<li><a href="contact.html">Contact us</li>
-		</ul>
-	</nav>
+    <nav class="navbar">
+      <ul>
+        <li><a href="archive.html">Posts</a></li>
+        <li><a href="contact.html">Contact us</a></li>
+      </ul>
+    </nav>
 
-<div style="background-color: white; height:40px;">
-</div>
-	  
+    <div style="background-color: white; height:40px;">
+    </div>
+      
     <div class="image-container">
       <img src="Designer(1).png" alt="image" style="border: 5px solid black;">
     </div>
-  </div>
+  
     <div class="description">
       <p>
       Will we grow extinct? Will we endure? Will we colonise the galaxy? Is Star Trek the future? At Nexos, we delve into these questions and more, and find the possibilities that our technology may lead to. We seek to understand how much science fiction can become scientific fact, and the repercussions for our civilisation.
-	We delve into the topics of artificial intelligence and new technologies, genetics, space exploration, and our environment on Earth, looking at both the scientific and the ethical sides of these topics.
-	Our mission is to create an online futurism and science discussion to be accessed by all, and to bring awareness to the future so that we can pave the path to the greatest sci-real world.
-	      Will we align toward Romulan or Vulcan ideals, or will we experience a worl more reminiscent of Star Wars, the western in space?
-     </p>
+      We delve into the topics of artificial intelligence and new technologies, genetics, space exploration, and our environment on Earth, looking at both the scientific and the ethical sides of these topics.
+      Our mission is to create an online futurism and science discussion to be accessed by all, and to bring awareness to the future so that we can pave the path to the greatest sci-real world.
+      Will we align toward Romulan or Vulcan ideals, or will we experience a world more reminiscent of Star Wars, the western in space?
+      </p>
     </div>
     <div class="contact">
       <p style="font-size:25pt">
-	Contact Nexos
+        Contact Nexos
       </p>
       <button style="background-color:#E0A7A6; border:1px solid black; padding:5px;">
-	<a style="color: white; text-decoration: none;" href=mailto:oscarcoleman999@gmail.com>Nexos by Email</a>
+        <a style="color: white; text-decoration: none;" href=mailto:oscarcoleman999@gmail.com>Nexos by Email</a>
       </button>
     </div>
   </body>
