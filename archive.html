@@ -32,15 +32,46 @@
     			margin-left: auto;
     			margin-right: auto;
 			}
-			.contact {
-   			background-color: #AADE91;
-    			font-size: 15pt;
-    			font-family: 'Times New Roman', Times, serif;
-    			text-align: center;
-  }
+			
+			.navbar ul {
+  			list-style-type: none;
+  			background-color: #7AA168;   
+  			padding: 0px;
+  			margin: 0px;
+  			overflow: hidden;
+			}
+
+
+   			.navbar:hover ul {
+        		height: auto;
+      			}
+
+      			.navbar a {
+        		color: white;
+        		text-decoration: none;
+        		padding: 15px;
+        		display: block;
+        		text-align: center;
+      			}
+
+      			.navbar a:hover {
+        		background-color: #465c3c;
+      			}
+
+      			.navbar li {
+        		float: left;
+      			}
 		</style>
 	</head>
 	<body>
+
+    		<nav class="navbar">
+     		<ul>
+        		<li><a href="archive.html">Posts</a></li>
+        		<li><a href="contact.html">Contact us</a></li>
+      		</ul>
+    		</nav>
+		
 		<div class="h1">
       			<span class="text-center">NEXOS</span>
       			<span class="text-center" style="font-size: 20pt;">Post Archive<br>
@@ -53,14 +84,6 @@
 	Our mission is to create an online futurism and science discussion to be accessed by all, and to bring awareness to the future so that we can pave the path to the greatest sci-real world.
 	      Will we align toward Romulan or Vulcan ideals, or will we experience a worl more reminiscent of Star Wars, the western in space?
      			</p>
-    		</div>
-		<div class="contact">
-      			<p style="font-size:25pt">
-			Contact Nexos
-      			</p>
-      			<button style="background-color:#E0A7A6; border:1px solid black; padding:5px;">
-			<a href=mailto:oscarcoleman999@gmail.com>Nexos by Email</a>
-      			</button>
     		</div>
 	</body>
 </html>
