@@ -63,26 +63,30 @@
         		float: left;
       			}
 
-			.containerLeft {
+			.row {
+				display: flex;
+			}
+
+			.collumn1 {
 				font-size: 35pt;
     				font-family: 'Times New Roman', Times, serif;
 				float: left;
 				width: 100%;
 				height: auto;
 			}
-				.containerLeft img {
-					width: 30%;
+				.collumn1 img {
+					width: 40%;
 					height: 300px;
 				}
-			.containerRight {
+			.collumn2 {
 				font-size: 35pt;
     				font-family: 'Times New Roman', Times, serif;
 				float: right;
 				width: 100%;
 				height: auto;
 			}
-				.containerRight img {
-					width: 35%;
+				.collumn2 img {
+					width: 40%;
 					height: 300px;
 				}
 			a {
@@ -114,24 +118,26 @@
      			</p>
     		</div>
 
+	<div class="row">
 		<a href="quantumComputers.html">
-			<div class="containerLeft">
+			<div class="collumn1">
 				<img src="Designer(4).png">
 				<p style="margin: 20px;">The Quantum War</p>
 			</div>
 		</a>
 		
 		<a href="ArtistAI.html">
-			<div class="containerLeft">
+			<div class="collumn2">
 				<img src="Designer(8).png">
 				<p style="margin: 20px;">Will AI replace artists?</p>
 			</div>
 		</a>
 		<a href="corporateClimateDisaster">
-			<div class="containerLeft">
+			<div class="collumn1">
 				<img src="Designer.jpeg">
 				<p style="margin: 20px;">Corporate Climate Destruction</p>
 			</div>
 		</a>
+	</div>
 	</body>
 </html>
