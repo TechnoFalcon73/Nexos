@@ -11,6 +11,12 @@
       margin: 0px;
       padding: 0px;
     }
+    .search-container {
+      display: flex;
+      justify-content: center; 
+      width: 100%; 
+      margin: 20px auto; 
+      }
 
     .h1 {
       font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -119,8 +125,10 @@
     </p>
   </div>
 
-  <input type="text" id="searchInput" placeholder="Search..." style="border: 1px solid black; color: black;">
-  <button style="background-color:black; color:white;" onclick="searchLinks()">Search</button>
+  <div class="search-container">
+    <input type="text" id="searchInput" placeholder="Search..." style="border: 1px solid black; color: black;">
+    <button style="background-color:black; color:white;" onclick="searchLinks()">Search</button>
+  </div>
   <div id="searchResults">
     <a href="cbdcs.html">
       <div class="container">
